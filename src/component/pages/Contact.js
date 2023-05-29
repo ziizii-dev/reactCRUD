@@ -2,7 +2,8 @@ import React from "react"
 const Contact= ()=>{
  return(
 <div className="container">
-    <h1>Contact Page</h1>
+     <div className="col-4 offset-4">
+     <h1>Contact Page</h1>
     <form>
   <div className="mb-3">
     <label htmlFor="exampleInputEmail1" className="form-label">
@@ -34,10 +35,12 @@ const Contact= ()=>{
       Check me out
     </label>
   </div>
-  <button type="submit" className="btn btn-primary form-conrol">
+  <button type="submit" className="btn btn-primary form-control">
     Submit
   </button>
 </form>
+     </div>
+    
 
 </div>
  );

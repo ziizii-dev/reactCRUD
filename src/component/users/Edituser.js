@@ -31,8 +31,9 @@ const Edituser = () => {
   
   return (
     <div className="container">
-      <div className="w-75 mx-auto shadow p-5">
-        <h2 className="text-center mb-4">Edit User</h2>
+      <div className="row">
+         <div className="col-6 offset-4">
+         <h2 className="text-center mb-4">Edit User</h2>
         <form onSubmit = {e =>onSubmit(e)}>
           <div className="w-75 mx-auto shadow p-5">
 
@@ -85,9 +86,13 @@ const Edituser = () => {
               Update User
             </button>
           </div>
-        </form>
+        </form> 
+        </div>
       </div>
-    </div>
+      {/* <div className="w-75 mx-auto shadow p-5"> */}
+        
+      </div>
+    // </div>
   );
 };
 export default Edituser;
